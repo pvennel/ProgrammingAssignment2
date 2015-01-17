@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The function cacheSolve accepts a Matrix as input and returns back the Inverse Matrix
+## The function cacheSolve() accepts a Matrix as input and returns back the Inverse Matrix
 ## It should be noted that the Inverse is computed only once for a given Matrix. If the 
 ## value is found in globally, then that is instantly returned saving the time to computer 
 ## the Inverse.
